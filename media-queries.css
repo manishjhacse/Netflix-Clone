@@ -1,0 +1,91 @@
+@media screen and (max-width:1024px) {
+  h1{
+    font-size: 2rem;
+  }
+  h3{
+    font-size: 1rem;
+  }
+  .header-content{
+    left: 10%;
+  }
+  .feature-container{
+    flex-direction:column;
+  }
+  .footer-main{
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+@media screen and (max-width:458px) {
+  h1{
+    font-size: 1.8rem;
+  } 
+  h3{
+    font-size: 1rem
+  }
+  .header-content{
+    left: 0%;
+    margin-inline: 20px;
+  }
+  .header-content h3{
+    font-weight: 300;
+  }
+  .nav img{
+    width: 100px;
+   }
+   .language img{
+    width: 10px;
+    margin-left: 10px;
+  }
+  button{
+    font-size:.7rem ;
+  }
+  .righbox img{
+    max-width: 100%;
+  }
+  .freq-asked h1{
+    text-align: center;
+  }
+  .que{
+    padding: 15px 20px 0px 20px;
+  }
+  .que h3,.que i{
+    font-size: .9rem;
+  }
+  .ready-to-watch{
+    width: 80%;
+    font-size: 1rem;
+    text-align: center;
+  }
+  .email-header{
+    flex-direction: column;
+    gap: 20px;
+  }
+  .email-input{
+    font-size: 1rem;
+    width: 100%;
+    margin-left:0;
+    padding: 10px 20px ;
+    color: white;
+}
+.email-header button{
+    font-size: 1.1rem;
+    margin: 0px;
+    padding: 15px 20px;
+} 
+.footer{
+  padding: 10px;
+}
+}
+
+@media screen and (max-width:360px) {
+  .language{
+    padding: 10px 20px;
+  }
+  .language p{
+    display: none;
+  }
+  .language img{
+    margin: 0;
+  }
+}

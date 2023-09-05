@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+    color: #fff;
+    font-family:sans-serif ;
+}
+.header{
+    overflow: hidden;
+    width: 100%;
+    height: 90vh;
+    background: linear-gradient(rgb(0,0,0,0.7),rgb(0,0,0,0.7)),url(netflix-header.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8px;
+    position: relative;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+      
+}
+.logo{
+    margin: 20px;
+    width: 200px;
+}
+button{
+    font-size: 20px;
+    padding: 8px 16px;
+    border-radius: 6px;
+    
+   
+}
+.primary-button{
+    background-color: red;
+    color: white;
+    border: none;
+    transition: .2s ease-out;
+    margin-left: 20px;
+}
+.primary-button:hover{
+    background-color: rgb(171, 7, 7);
+}
+.language{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    border: .5px solid white;
+    padding: 10px 20px;
+    color: white;
+}
+.language img{
+    width: 100px;
+    width: 10px;
+    margin-left: 10px;
+}
+
+.header-content{
+    font-family: sans-serif;
+    position: absolute;
+     top: 30%; 
+    left: 15%; 
+    text-align: center;
+    transform: (-50%,-50%);
+    margin-top: 100px;
+    text-align: center;
+}
+h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.email-header{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.email-input{
+    border-radius: 1px solid white;
+    background-color: transparent;
+    font-size: 20px;
+    width: 400px;
+    margin-left: 20px;
+    padding: 20px 20px ;
+    color: white;
+}
+.email-header button{
+    font-size: 24px;
+    margin: 10;
+    padding: 20px 40px;
+}
+button i{
+    margin-left: 20px;
+}
+.feature-container{
+    overflow: hidden;
+    border-top: 10px solid rgb(41, 40, 40);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 10px 40px;
+}
+.image-left{
+    flex-direction: row-reverse;
+}
+.faq-container{
+    
+    border-top: 10px solid rgb(41, 40, 40);
+}
+.faq{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    gap: 10px;
+    margin-block: 20px;
+}
+.faq h1{
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-block: 15px;
+    text-align: center;
+}
+.accordian{
+    background-color: rgba(49, 45, 45, 0.812);
+    cursor: pointer;
+    font-family: sans-serif;
+    padding: 16px 16px; 
+    transition: all ease-in-out .2s;
+}
+.question{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.accordian:hover{
+    background-color: rgba(67, 64, 64, 0.812);
+}
+
+
+.question h3,i{
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 2px;
+}
+.icon{
+    margin-right: 10px;
+    transition: transform .1s linear;
+}
+.icon.active{
+    transform: rotate(-45deg);
+}
+.answer{
+    margin-top: 10px;
+    color: #ffffffc7;
+    max-height: 0; 
+    overflow: hidden;
+    transition: all .1s ease-in-out;
+}
+.answer h3{
+    font-size: 1.5rem;
+}
+.answer h3{
+    margin-block: 10px;
+}
+
+@media screen and (max-width:495px) {
+    .faq h1{
+        font-size: 1.25rem;
+        text-align: center;
+    }
+    .answer h3{
+        font-size: 1rem;
+    }
+    .question h3,i{
+       font-size: 1rem;
+    }
+    .accordian{
+        padding: 8px 16px;
+    }
+
+}
+
+.ready-to-watch{
+    font-size:  22px;
+    margin-block: 20px;
+}
+.footer{
+    color: #ffffff88;
+    border-top: 10px solid rgb(41, 40, 40);
+    padding: 100px 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: start;
+    overflow: hidden;
+}
+.footer a{
+    color: #ffffff88;
+}
+.footer-main div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-main{
+    margin-block:40px ;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 320px;
+}
+.last-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
